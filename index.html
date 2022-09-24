@@ -26,7 +26,7 @@
     <a href="./index.html" class="header-logo">Web<span class="color-logo">Studio</span></a>
   
     <ul class="header-list-nav">
-            <li class="header-item"><a href="./index.html" class="header-link current">Студія</a></li>
+            <li class="header-item "><a href="./index.html" class="header-link current">Студія</a></li>
             <li class="header-item"><a href="./portfolio.html" class="header-link">Портфоліо</a></li>
             <li class="header-item"><a href="#" class="header-link">Контакти</a></li>
           </ul>
@@ -50,7 +50,7 @@
         
         
         <h1 class="main-title">Ефективні рішення <br>для вашого бізнесу</h1>
-        <button type="button" class="main-button"><span>Замовити послугу</span></button>
+        <button type="button" class="main-button" data-modal-open><span>Замовити послугу</span></button>
       
       </section>
       
@@ -125,7 +125,10 @@
               width="370"
               height="294"
             />
+            <div class="what-wedo">
+              <h3 class="notification">Десктопні додатки</h3></div>
           </li>
+          
           <li class="header-top">
             <img
               class="hero-photo"
@@ -133,8 +136,10 @@
               alt="фотосесії"
               width="370"
               height="294"
-            />
+            /><div class="what-wedo">
+            <h3 class="notification">Мобільні додатки</h3></div>
           </li>
+          
           <li class="header-top">
             <img
               class="hero-photo"
@@ -142,8 +147,10 @@
               alt="ремонтуємо техніку"
               width="370"
               height="294"
-            />
+            /><div class="what-wedo">
+            <h3 class="notification">Дизайнерські рішення</h3></div>
           </li>
+          
         </ul>
       </div>
       </section>
@@ -289,6 +296,10 @@
       </div>
       </div>
     </footer>
-  
+  <div class="backdrop is-hidden" data-modal>
+    
+    <div class="modal"><button type="button" class="close-button" data-modal-close><a href=""><svg viewBox="0 0 32 32" width="18"><use href="./img/sprite.svg#X"></use></svg></a></button></div>
+  </div>
+  <script src="./img/js/modal.js"></script>
   </body>
 </html>
