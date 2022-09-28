@@ -640,6 +640,9 @@ cursor: pointer;
 transform: translateY(0);
 }
 
+.header-content:focus-within .gallery-text{
+  transform: translateY(0);
+  }
 
 
 .border{
